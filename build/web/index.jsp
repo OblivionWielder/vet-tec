@@ -48,34 +48,13 @@
                 <!-- header -->
                 <header>
                     <div class="wrapper">
-                        <h1><a href="index.html" id="logo">Around the World</a></h1>
-                        <div class="right">
-                            <div class="wrapper">
-                                <form id="search" action="" method="post">
-                                    <div class="bg">
-                                        <input type="submit" class="submit" value="">
-                                        <input type="text" class="input">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="wrapper">
-                                <nav>
-                                    <ul id="top_nav">
-                                        <li><a href="#">Register</a></li>
-                                        <li><a href="#">Log In</a></li>
-                                        <li><a href="#">Help</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
+                        <h1><a href="index.jsp" id="logo">Around the World</a></h1>
                     </div>
                     <jsp:include page="includes/navbar.jsp" />
                     <article class="col1">
                         <ul class="tabs">
-                            <li><a href="#" class="active">Flight</a></li>
-                            <li><a href="#">Hotel</a></li>
-                            <li><a href="#">Car</a></li>
-                            <li class="end"><a href="#">Cruise</a></li>
+                            <li><a href="#" class="active">Vuelo</a></li>
+                            <li class ="end"><a href="#">Hotel</a></li>
                         </ul>
                         <div class="tabs_cont">
                             <form id="form_1" action="FlightServlet" method="post">
@@ -159,9 +138,8 @@
                     <article class="col1 pad_left1">
                         <div class="text">
                             <img src="images/text1.jpg" alt="">
-                            <h2>The Best Offers</h2>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-                            <a href="#" class="button">Read More</a>
+                            <h2>Las mejores Ofertas</h2>
+                            <p>AroundtheWorld es una empresa que se dedica al turismo. Tenemos las mejores ofertas del mercado en Vuelos y Hoteles.</p>
                         </div>
                     </article>
                     <div class="img"><img src="images/img.jpg" alt=""></div>
@@ -170,42 +148,42 @@
                 <!-- content -->
                 <section id="content">
                     <article class="col1">
-                        <h3>Hot Travel</h3>
+                        <h3>Nuevos Destinos</h3>
                         <div class="pad">
                             <div class="wrapper under">
                                 <figure class="left marg_right1"><img src="images/page1_img1.jpg" alt=""></figure>
-                                <p class="pad_bot2"><strong>Italy<br>Holidays</strong></p>
-                                <p class="pad_bot2">Lorem ipsum dolor sit amet, consect etuer adipiscing.</p>
+                                <p class="pad_bot2"><strong>Las Vegas</strong></p>
+                                <p class="pad_bot2">M&aacute;s de 100 shows y m&aacute;s de 200 casinos, Las Vegas es el lugar ideal para disfrutar.</p>
                                 <a href="#" class="marker_1"></a>
                             </div>
                             <div class="wrapper under">
                                 <figure class="left marg_right1"><img src="images/page1_img2.jpg" alt=""></figure>
-                                <p class="pad_bot2"><strong>Philippines<br>Travel</strong></p>
-                                <p class="pad_bot2">Lorem ipsum dolor sit amet, consect etuer adipiscing.</p>
+                                <p class="pad_bot2"><strong>Canc&uacute;n</strong></p>
+                                <p class="pad_bot2">Disfruta de la relajaci&oacute;n de sus balnearios o la practica alguno de sus deportes acu&aacute;ticos</p>
                                 <a href="#" class="marker_1"></a>
                             </div>
                             <div class="wrapper">
                                 <figure class="left marg_right1"><img src="images/page1_img3.jpg" alt=""></figure>
-                                <p class="pad_bot2"><strong>Cruise<br>Holidays</strong></p>
-                                <p class="pad_bot2">Lorem ipsum dolor sit amet, consect etuer adipiscing.</p>
+                                <p class="pad_bot2"><strong>Nueva York</strong></p>
+                                <p class="pad_bot2">Con sus m&aacute;s de 2000 tiendas, es el lugar perfecto para conseguir todo y conocer sus atracciones.</p>
                                 <a href="#" class="marker_1"></a>
                             </div>
                         </div>
                     </article>
                     <article class="col2 pad_left1">
-                        <h2>Popular Places</h2>
+                        <h2>Hoteles Populares</h2>
                         <div class="wrapper under">
                             <figure class="left marg_right1"><img src="images/page1_img4.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Hotel du Havre</strong></p>
-                            <p class="pad_bot2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                            <p class="pad_bot2"><strong>Nemo enim ipsam voluptatem</strong> quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                            <p class="pad_bot2"><strong>Helmsley Park Lane</strong></p>
+                            <p class="pad_bot2">Helmsley Park Lane ® es un hotel de lujo de 46 historias con las vistas panorámicas de Central Park  y el horizonte de la Ciudad de Nueva York . Sus espacios son amplios, elegantes y sus suites ofrecen ventanales y vistas magníficas. Se disfruta de un ambiente clásico, comodidad y conveniencia para una experiencia &uacute;nica en la ciudad líder mundial más extraordinaria.</p>
+                            <p class="pad_bot2"> Localizada en el Central Park en Nueva York, justo en el centro del distrito de negocios, este hotel esta a una corta distancia de la 5ta Avenida, Broadway, Radio City, entre otras atracciones.</p>
                             <a href="#" class="marker_2"></a>
                         </div>
                         <div class="wrapper">
                             <figure class="left marg_right1"><img src="images/page1_img5.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Hotel Vacance</strong></p>
-                            <p class="pad_bot2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
-                            <p class="pad_bot2">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda.</p>
+                            <p class="pad_bot2"><strong>Belmont</strong></p>
+                            <p class="pad_bot2">El hotel Belmont es un establecimiento distendido de 3 estrellas. Dotado de un notable confort tecnológico y unos espacios sorprendentes, es un remanso de paz con una atmósfera relajante. Nuestro amable personal le informará sobre las visitas más interesantes de su barrio de los Campos Elíseos para lograr que su estancia le resulte inolvidable.</p>
+                            <p class="pad_bot2">Situado a un centenar de metros de los Campos Elíseos, el hotel Belmont le ofrece un acceso inmediato a las lujosas boutiques de las avenidas Montaigne y George V.</p>
                             <a href="#" class="marker_2"></a>
                         </div>
                     </article>
@@ -218,8 +196,7 @@
             <div class="main">
                 <!-- footer -->
                 <footer>
-                    <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank">Website template</a> designed by TemplateMonster.com<br>
-                    <a href="http://www.templates.com/product/3d-models/" target="_blank">3D Models</a> provided by Templates.com
+                   
                 </footer>
                 <!-- / footer -->
             </div>
